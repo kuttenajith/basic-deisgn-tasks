@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        input[type="number"]::placeholder {
+            text-align: right;
+        }
+
+        /* Create two equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 50%;
+            padding: 0px;
+            height: 0px;
+            /* Should be removed. Only for demonstration */
+        }
+
+        .image {
+            float: left;
+            width: 33.33%;
+            padding: 6px;
+        }
+
+        .image1 {
+            float: right;
+            width: 33.33%;
+            padding: 6px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .form-control {
+            width: 570px;
+        }
+        /* .btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+} */
+    </style>
+
+</head>
+
+<body>
+    <img src="pic_trulli.jpg" alt="Trulli" width="70" height="70" class="center">
+    <h3 class="text-center my-4">PART TIMER - REGISTRATION</h3>
+    <div class="container">
+        <div class="row">
+            <div class="column reg mr-auto ml-auto">
+                <form>
+                    <div class="form-group"><label>Gender</label><input type="number" class="form-control" name="number"
+                            placeholder="Male"></div>
+                    <div class="form-group"><label>Where you Stay</label><input type="number" class="form-control"
+                            name="number" placeholder="China town"></div>
+
+                    <div class="form-group"><label>Nationality</label><input type="number" class="form-control"
+                            name="number" placeholder="Singaporean"></div>
+
+                    <div class="form-group"><label>Religion</label><input type="number" class="form-control"
+                            name="number" placeholder="Christian"></div>
+                    <div class="form-group"><label>Shirt Size</label>
+                        <div class="form-group">
+
+                            <select class="form-control">
+                                <option>M</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">   
+                                            
+                        <!-- <div class="image">
+                            <img src="img_snow.jpg" alt="Snow" style="width:100%">
+                            <i class="fa fa-globe btn" style="font-size: 1.5em";></i>
+                        </div>
+                        <div class="image1">
+                            <img src="img_forest.jpg" alt="Forest" style="width:100%">    
+                        </div> -->
+
+                        <div class="row">   
+                            <div class="col">
+                            <h5 class="text-center" style= "padding-right: 60px">NRIC-FRONT</h5>              
+                                <img src="img_forest.jpg" class="rounded float-left" style="width:70%" >
+                            </div>
+                            <div class="col">
+                                    <h5 class="text-center" style= "padding-left: 60px">NRIC-BACK</h5>  
+                                <img src="img_forest.jpg" class="rounded float-right" style="width:70%" >
+                            </div>
+                            
+                    </div>
+                    <div class="col" style= "padding-left: 177px";>
+                        <button type="submit" class="btn btn-primary" style="
+                            padding: 5px 100px;
+                            margin-bottom: 10px;
+                            margin-top: 10px;
+                        ">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

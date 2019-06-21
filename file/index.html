@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <style>
+   
+    * {
+      box-sizing: border-box;
+
+    }
+
+    /* Create two equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 50%;
+      padding: 10px;
+      height: 300px;
+      /* Should be removed. Only for demonstration */
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+  </style>
+
+</head>
+
+<body>
+  <img src="pic_trulli.jpg" alt="Trulli" width="70" height="70" class="center">
+  <h3 class="text-center">PART TIMER - LOGIN</h3>
+  <div class="container">
+    <div class="row">
+      <div class="column sign-up">
+        <img src="envelope.jpeg" alt="Trulli" width="70" height="70" class="center">
+        <h6 class="text-center">PART TIMER - LOGIN</h6>
+        <h6 class="text-center">PART TIMER - LOGIN</h6>
+        <textarea rows="6" cols="59"></textarea>
+      </div>
+      <div class="column sign-up">
+        <form>
+          <div class="form-group">
+            <label>USERNAME</label>
+            <input type="email" class="form-control">
+
+          </div>
+          <div class="form-group">
+            <label>PASSWORD</label>
+            <input type="password" class="form-control">
+          </div>
+
+          <button type="submit" class="btn btn-primary">SIGN IN</button>
+          <div class="form-group create">
+            <p>Create an Acccount <a href="">Sign Up</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

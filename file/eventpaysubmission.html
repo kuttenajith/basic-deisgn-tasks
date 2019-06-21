@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+		integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<style>
+		* {
+			box-sizing: border-box;
+
+		}
+
+		.dot {
+			height: 25px;
+			width: 25px;
+			background-color: #bbb;
+			border-radius: 50%;
+			display: inline-block;
+		}
+
+		.vl {
+			border-left: 2px solid gray;
+			height: 200px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<h5 class="text-left">Work History</h5>
+			<div class="icon new">
+				<i style="padding-left: 812px;font-size:24px" class="fa">&#xf0f3;</i>
+			</div>
+			<div style=" position:relative; padding-left: 8px" ;>
+				<p>Hello Partimer</p>
+			</div>
+			<div style="padding-left: 8px" ;>
+				<span class="dot"></span>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<h5>Event pay submission details</h5>
+			<h5 class="text-right" style="padding-left:100px">Event <b>ID #2354</b></h5>
+		</div>
+		<table class="table">
+			<thead>
+				<tr>
+					<th scope="col">Event Name</th>
+					<th scope="col">Status</th>
+					<th scope="col">Date</th>
+					<th scope="col">EVent Type</th>
+					<th scope="col">Your Roll</th>
+					<th scope="col">Your hourly Pay</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th class="form-group">
+						<div class="form-group">
+							<select class="form-control mr-auto">
+								<option>Instagram Event</option>
+							</select>
+						</div>
+					</th>
+					<td>Pending</td>
+					<td>25 / 5/ 19</td>
+					<td>instagram live feed</td>
+					<td>organiser</td>
+					<td><input type="email" value="25 $"></td>
+				</tr>
+			</tbody>
+		</table>
+		<div class="container">
+			<a href="#" style="position:relative; left:10px; bottom: 40px">View Event</a>
+		</div>
+			<label>Address *</label>
+			<div class="form">
+				<textarea class="col-sm-3 col-form-label">23 cross street,5th avenue, Midtown, London.</textarea>
+			</div>
+		<!-- <span class="border border-success"> -->
+		<div class="border border-success">
+			<div class="row">
+				<div class="col-sm-4" style="background-color:white;">
+					<h6 class="card-title"><b>Service start time</b></h6>
+					<div class="form-group">
+						<select class="form-group ">
+							<option>10 am</option>
+						</select>
+					</div>
+					<p class="card-text"><b>Service start time validation photo</b></p>
+					<img src="pic_trulli.jpg" alt="Trulli" width="90" height="70" class="center">
+					<i class="fas fa-clock" style="font-size:36px; position:relative; left:3px; top: 5px"></i>
+				</div>
+				<div class="vl"></div>
+				<div class="col-sm-4" style="background-color:white;">                      											
+					<h6 class="card-title"><b>Service end time</b></h6>
+					<div class="form-group">
+						<select class="form-group ">
+							<option>12 pm</option>
+						</select>
+					</div>
+					<p class="card-text"><b>Service end time validation photo</b></p>
+					<img src="pic_trulli.jpg" alt="Trulli" width="90" height="70" class="center">
+					<i class="fas fa-clock" style="font-size:36px; position:relative; left:3px; top: 5px"></i>
+				</div>
+				<div class="card" style="width: 23rem;background-color:#fff">
+					<div class="card-body">
+						<h5 class="card-title">Your reimbursement</h5>
+						<input value="25 $">
+						<div class="form-group"></div>
+						<p class="card-text"><b>Your reimbursement validation photo</b></p>
+						<img src="pic_trulli.jpg" alt="Trulli" width="90" height="70" class="center">
+						<i class="fas fa-clock" style="font-size:36px; position:relative; left:3px; top: 5px"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- </span> -->
+			<div class="form-group">
+				<label><b>Break timer comment</b></label>
+				<div class="form">
+					<textarea class="col-sm-6 col-form-label"></textarea>
+				</div>
+			</div>
+			<div class="form-group">
+				<label><b>General timer comment</b></label>
+				<div class="form">
+					<textarea class="col-sm-6 col-form-label"></textarea>
+				</div>
+			</div>
+			<p class="form-group"><b>Total service payout</b></p>
+			<input class="col-sm-3 col-form-label" value="25 $">
+			<div class="form-group"></div>
+			<p class="form-group"><b>Total service payout</b></p>
+			<input class="col-sm-3 col-form-label" value="25 $">
+			<div class="form-group"></div>
+			<p class="card-text "><b>Total Payment</b></p>
+			<input class="col-sm-5 col-form-label" value="25 $">
+			<div class="col" style="padding-left: 177px" ;>
+				<button type="submit" class="btn btn-primary" style="
+                                padding: 5px 100px;
+                                margin-bottom: 10px;
+                                margin-top: 10px;
+                            ">Submit</button>
+				<button type="submit" class="btn btn-primary" style="
+                            padding: 5px 100px;
+                            margin-bottom: 10px;
+                            margin-top: 10px;
+                        ">Cancel</button>
+			</div>
+
+		</div>
+
+
+	</div>
+
+</body>
+
+</html>

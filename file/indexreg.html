@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Create two equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 50%;
+            padding: 0px;
+            height: 0px;
+            /* Should be removed. Only for demonstration */
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+
+</head>
+<body>
+    <img src="pic_trulli.jpg" alt="Trulli" width="70" height="70" class="center">
+    <h3 class="text-center my-4">PART TIMER - REGISTRATION</h3>
+    <div class="container reg">
+        <div class="row">
+            <div class="column reg mr-auto ml-auto">
+                    <form>
+                         <div class="form-group" ><label>First Name</label><input type="text" class="form-control"
+                                name="first_name" placeholder="John" size="5"></div>
+                        <div class="form-group"><label>Last Name</label><input type="text" class="form-control"
+                                name="last_name" placeholder="Deer"></div>
+
+                         <div class="form-group"><label>Mobile Number</label>
+                            <input type="number" class="form-control" name="number" placeholder="+6">
+                        </div>
+
+                        <div class="form-group"><label>Email</label>
+                            <input type="email" class="form-control" name="email" placeholder="john@instantly.com">
+                        </div>
+                        <div class="row">
+                                <div class="form-group" >
+                                        <label>Select Bank</label>
+                                        <select class="form-control" style="width: 186px;">
+                                          <option>1</option>
+                                          <option>2</option>
+                                          <option>3</option>
+                                          <option>4</option>
+                                          <option>5</option>
+                                        </select>
+                                      </div>
+                        <div class="ac ml-3 "><label>Acc Number</label>
+                            <input type="email" class="form-control" name="email" placeholder="3434543454" size="39">
+                        </div></div>
+                        <div class="form-group"><label>PASSWORD</label>
+                            <input type="password" class="form-control" name="password" placeholder="*********">
+                        </div><br></br>
+                       <div class="text-center">
+                            <button type="submit"  class="btn btn-outline-primary" style="padding: 5px 40px;margin-bottom: 10px;" >NEXT</button>
+                       </div>
+                        <div class="form-group create my-4">
+                                <p>Already an User <a href="">Sign In</a></p>
+                              </div>
+                    </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
