@@ -1,2 +1,2 @@
-# basic-deisgn-tasks
+# basic-design-tasks
 design tasks like using bootstrap
